@@ -1,0 +1,19 @@
+{
+  "name": "openalayers_npm",
+  "version": "1.0.0",
+  "description": "getting started with openlayers",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "author": "Konstantinos Vasili",
+  "license": "ISC",
+  "dependencies": {
+    "ol": "^6.11.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

@@ -1,0 +1,27 @@
+# check this url out
+https://www.giserdqy.com/wp-content/guids/ol-v5.1.3/doc/tutorials/bundle.html
+
+#1
+npm init
+
+#2
+npm instal ol
+
+#3
+npm install --save-dev parcel-bundler
+
+#4
+add the following to package.json
+
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "parcel index.html",
+  "build": "parcel build --public-url . index.html"
+}
+
+#5
+ 
+npm start  #check --> http://localhost:1234/ 
+
+#6
+npm run build  #copy the dist/ folder to your production server

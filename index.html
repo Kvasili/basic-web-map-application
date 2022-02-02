@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="./libs/v6.4.3-dist/ol.css">     -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- <script src="./libs/v6.4.3-dist/ol.js"></script> -->
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-1">
+            <div class="sidebar">
+                <h2>Basemap Layers</h2>
+                <input type="radio" name="baseLayerRadioButton" value="OSM" checked>OSM<br>
+                <input type="radio" name="baseLayerRadioButton" value="imagery">imagery<br>
+                <input type="radio" name="baseLayerRadioButton" value="Bing">Bing<br>
+                <input type="radio" name="baseLayerRadioButton" value="Bing-Dark">Bing-Dark<br>
+
+                <h2>Layers</h2>
+                <input type="checkbox" name="rasterTileLayerCheckBox" value="topo1">topo1<br>
+                <input type="checkbox" name="rasterTileLayerCheckBox" value="topo2">topo2<br>
+              
+            </div>
+        </div>
+        <div class="grid-2">
+            <div id='map' class='map'></div>
+        </div>
+    </div>
+    <!-- <div id="popup-container"></div> -->
+    <!-- <div id="popup-coordinates"></div> -->
+    
+    <!-- <script src="./app.js"></script> -->
+
+    <script src="./index.js"></script>
+
+    <!-- <div id='map' class='map'></div>
+    <script src="./app.js"></script> -->
+    
+</body>
+</html> 
